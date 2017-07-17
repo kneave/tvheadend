@@ -7,45 +7,19 @@ https://hub.docker.com/r/kneave/tvheadend/
 
 It is build each time this repo is updated, typically I do so manually by updating the commit hash indicating what version of the source it is built from.
 The latest build should map to the following hash in the [tvheadend](https://github.com/tvheadend/tvheadend) repo:
-a9dffb7e96d5d0269840e40575e69ec996351ec1 (v4.3.295)
 
-## Installation - including management scripts and src
 ```sh
-	git clone https://github.com/hobbsAU/docker-tvheadend.git
-	cd docker-tvheadend
-	make run
+a9dffb7e96d5d0269840e40575e69ec996351ec1 (v4.3.295)
 ```
+
+Latest version pushed to the tvheadend repo is:
+[![](https://api.bintray.com/packages/tvheadend/deb/tvheadend/images/download.svg) ](https://bintray.com/tvheadend/deb/tvheadend/_latestVersion)
+
+If there is a big gap, you should probably update this Keegan!
 
 ## Installation - standalone Docker image
 ```sh
 docker pull kneave/tvheadend
-```
-
-## Usage - using management scripts
-
-### Creating and running the container
-```sh
-$ make run
-```
-
-### Stopping a running container
-```sh
-$ make stop
-```
-
-### Starting a stopped container
-```sh
-$ make start
-```
-
-### Destroying (deleting) a running or stopped container
-```sh
-$ make clean
-```
-
-### Remotely trigger a container rebuild
-```sh
-$ make build
 ```
 
 ## Usage - standalone Docker image
