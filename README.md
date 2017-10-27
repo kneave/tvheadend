@@ -9,7 +9,7 @@ It is build each time this repo is updated, typically I do so manually by updati
 The latest build should map to the following hash in the [tvheadend](https://github.com/tvheadend/tvheadend) repo:
 
 ```sh
-7d0e509ba0b73d2187bc27329e72c869f8c2f2b8 (v4.2.4.4)
+7d0e509ba0b73d2187bc27329e72c869f8c2f2b8 (v4.2.4.5)
 ```
 
 Latest version pushed to the tvheadend repo is:
